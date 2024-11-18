@@ -4,10 +4,14 @@
   <head>
     <meta charset="utf-8" />
     <title>CatPhotoApp</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <main>
-      <h1>CatPhotoApp</h1>
+      <header>
+        <h1>CatPhotoApp</h1>
+      </header>
+      <br /><br /><br /><br /><br />
       <section>
         <h2>Cat Photos</h2>
         <p>
@@ -31,35 +35,74 @@
       </section>
       <section>
         <h2>Cat Lists</h2>
-        <h3>Things cats love:</h3>
-        <ul>
-          <li>cat nip</li>
-          <li>laser pointers</li>
-          <li>lasagna</li>
-        </ul>
-        <figure>
-          <img
-            src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
-            alt="A slice of lasagna on a plate."
-          />
-          <figcaption>Cats <em>love</em> lasagna.</figcaption>
-        </figure>
-        <h3>Top 3 things cats hate:</h3>
-        <ol>
-          <li>flea treatment</li>
-          <li>thunder</li>
-          <li>other cats</li>
-        </ol>
-        <figure>
-          <img
-            src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
-            alt="Five cats looking around a field."
-          />
-          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
-        </figure>
+        <div class="CatsLove">
+          <h3>Things cats love:</h3>
+          <ul>
+            <li>Cat Nip</li>
+            <br />
+            <li>Laser Pointers</li>
+            <br />
+            <div class="lasagna">
+              <li>Lasagna</li>
+              <figure>
+                <img
+                  src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
+                  alt="A slice of lasagna on a plate."
+                />
+                <figcaption>Cats <em>love</em> lasagna.</figcaption>
+              </figure>
+            </div>
+          </ul>
+        </div>
+        <br />
+        <div class="CatsHate">
+          <h3>Top 3 things cats hate:</h3>
+          <ol>
+            <li>1. Flea treatment</li>
+            <br />
+            <li>2. Thunder</li>
+            <br />
+            <div class="otherCats">
+              <li>3. Other Cats</li>
+              <figure>
+                <img
+                  src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+                  alt="Five cats looking around a field."
+                />
+                <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+              </figure>
+            </div>
+          </ol>
+        </div>
       </section>
       <section>
-        <h2>Cat Form</h2>
+        <h2>Here are some more cute cats</h2>
+
+        <div class="extraImgs">
+          <img
+            src="https://happycatshaven.org/wp-content/uploads/2022/02/Kiwifacesm.jpg"
+            alt="A cute cat looking through a hole"
+          />
+          <img
+            src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg"
+            alt="A cute cat with grass in the background"
+          />
+          <img
+            src="https://cdn.theatlantic.com/thumbor/B7U27JF25tScMZkCe5Pl9EqXjao=/0x131:2555x1568/960x540/media/img/mt/2017/06/shutterstock_319985324/original.jpg"
+            alt="a cute cat jumping in the air"
+          />
+          <img
+            src="https://justcatsclinic.com/wp-content/uploads/2019/08/Havana_Brown_-_choco.jpg"
+            alt="A cute brown color cat"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Juvenile_Ragdoll.jpg/800px-Juvenile_Ragdoll.jpg"
+            alt="A cute white baby cat"
+          />
+        </div>
+      </section>
+      <h2>Cat Form</h2>
+      <section class="form">
         <form action="https://freecatphotoapp.com/submit-cat-photo">
           <fieldset>
             <legend>Is your cat an indoor or outdoor cat?</legend>
