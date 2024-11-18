@@ -1,15 +1,14 @@
-/* change colors later to fit with website, current colors are placeholders */
 body {
   text-align: center;
-  background-color: #FFF1E6;
+  background-color: #fff1e6;
 }
 
 img {
   max-width: 300px;
 }
 header {
-  background-color: #CB997E;
-  border: 10px solid #CB997E;
+  background-color: #cb997e;
+  border: 10px solid #cb997e;
   margin-bottom: 10px;
   position: absolute;
   top: 0;
@@ -24,12 +23,11 @@ header h1 {
   display: inline-block;
 }
 h2 {
-  background-color: #F0EFEB;
+  background-color: #f0efeb;
 
   padding: 20px 120px;
 }
 h3 {
-  
   display: inline-block;
   padding: 20px 120px;
   font-size: 22px;
@@ -45,23 +43,23 @@ li {
   background-color: #ede7e2;
 }
 .CatsHate li {
-  background-color: #EDDCD2;
+  background-color: #eddcd2;
 }
 
 .lasagna {
   background-color: #ede7e2;
 }
 .otherCats {
-  background-color: #EDDCD2;
+  background-color: #eddcd2;
 }
 .CatsLove {
-  background-color: #B7B7A4;
+  background-color: #b7b7a4;
   display: inline-block;
   padding: 40px 130px;
   margin: 40px;
 }
 .CatsHate {
-  background-color: #A5A58D;
+  background-color: #a5a58d;
   display: inline-block;
   padding: 40px 130px;
   margin: 20px;
